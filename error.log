@@ -1,0 +1,102 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 260-136-610
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 260-136-610
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:18:25] "GET /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:18:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:22:06] "GET /user HTTP/1.1" 405 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:22:15] "GET /users HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:22:19] "GET /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:22:22] "GET /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:22:26] "GET /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:25:41] "GET /users/token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTg5NTE0fQ.RIh2UbM7YSN8ZP4PZ8L-Z68qGEyQQ7kQ8hUVZ6vUcvU HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:25:50] "GET /users/ HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:25:54] "GET /users HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:33:01] "GET /users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTg5NTE0fQ.RIh2UbM7YSN8ZP4PZ8L-Z68qGEyQQ7kQ8hUVZ6vUcvU HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:33:04] "GET /users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTg5NTE0fQ.RIh2UbM7YSN8ZP4PZ8L-Z68qGEyQQ7kQ8hUVZ6vUcvU HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:33:38] "GET /users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTg5NTE0fQ.RIh2UbM7YSN8ZP4PZ8L-Z68qGEyQQ7kQ8hUVZ6vUcvU HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:33:48] "GET /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:33:52] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:34:08] "GET /users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:03] "GET /users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:04] "GET /users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:04] "GET /users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:05] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:05] "GET /users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:05] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:06] "GET /users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:06] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:33] "GET /users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:35:55] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:36:22] "GET /users HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:36:27] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:36:50] "GET /users?x-access-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:37:18] "GET /users HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:37:21] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:43:34] "GET /users HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:43:40] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:54:34] "GET /users HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:54:34] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:54:44] "GET /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:54:49] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:55:22] "GET /users?x-access-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkxNjg5fQ.SUsyBwqIFSwDLnwchwGkjkAV8Pt-EX0pzh28hp4PTrY HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 12:56:55] "GET /login HTTP/1.1" 401 -
+INFO:werkzeug: * Detected change in '/media/shyam/F454CAD854CA9D2C/work_assignment/project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 260-136-610
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:06:22] "GET /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:06:28] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:06:45] "GET /users HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:06:53] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:24:40] "GET /users?x-access-token={eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA} HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:24:42] "GET /users?x-access-token={eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA} HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:24:50] "GET /users?x-access-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkwNDMyfQ.ZdjlgWyA0vjNN7TaLtPKSnBRYTEEERjvKML1bkKgddA HTTP/1.1" 401 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 260-136-610
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:30:51] "GET /users?x-access-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkxNjg5fQ.SUsyBwqIFSwDLnwchwGkjkAV8Pt-EX0pzh28hp4PTrY HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:30:52] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:30:58] "GET /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:31:04] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:31:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:31:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:31:26] "GET /users?x-access-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTkzODY0fQ.0RL7EeBO0gsb7jNzvWejS3xH2HL2GL8wZV6CsPTMPDU HTTP/1.1" 401 -
+INFO:werkzeug: * Detected change in '/media/shyam/F454CAD854CA9D2C/work_assignment/project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 260-136-610
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:40:39] "GET /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:40:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:41:02] "GET /users?x-access-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTk0NDQ0fQ.ZYjT8QXDRIdaGNSBPEKOdY2-Ll983lSI1WxT0ZYX8Ms HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:41:11] "GET /users?x-access-token=eyJ0eXAiOiJKiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTk0OTQ5NTItYTkyNC00M2E0LTgxYzQtNTQxMDBlODNlMTBjIiwiZXhwIjoxNTMyNTk0NDQ0fQ.ZYjT8QXDRIdaGNSBPEKOdY2-Ll983lSI1WxT0ZYX8Ms HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:41:17] "GET /users HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:41:31] "GET /users HTTP/1.1" 401 -
+INFO:werkzeug: * Detected change in '/media/shyam/F454CAD854CA9D2C/work_assignment/project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 260-136-610
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:45:27] "GET /users HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:45:36] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:45:57] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:49:02] "POST /user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:49:10] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/media/shyam/F454CAD854CA9D2C/work_assignment/project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 260-136-610
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:50:33] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:51:04] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:51:10] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2018 13:51:22] "GET /users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/media/shyam/F454CAD854CA9D2C/work_assignment/project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 260-136-610
